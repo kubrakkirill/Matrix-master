@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: #dadada;
+    font-size: large;
+}
+header {
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-form{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.logo{
+    padding: 5px 20px 0;
+    background-color: #cbcbcb;
+}
+
+.main-content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.content-block{
+    width: 23%;
+}
+.main-cards{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    padding: 5px;
+    background-color: #cbcbcb;
+}
+.aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    background-color: #cbcbcb;
+}
+.aside-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+.aside-info a{
+    font-size: 22px;
+    font-weight: bold;
+    background-color: #dadada;
+}
+.aside-form{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #a1a1a1;
+}
+input{
+    width: 80%;
+}
+.aside-form select{
+    width: 60%;
+}
+button{
+    width: 40%;
+}
+.aside-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+h4{
+    padding: 3px 0;
+    background-color: #dadada;
+}
+#mail{
+    background-color: #dadada;
+}
+.main-cards a{
+    background-color: #f8f3f3;
+    border-bottom: 1px solid #dadada;
+    padding: 2px;
+}
+#resumes{
+    background-color: #dadada;
+    font-weight: bold;
+}
+#discussion{
+    background-color: #dadada;
+    font-weight: bold;
+}
+#freelance{
+    background-color: #dadada;
+}
+.extra-style{
+    background-color: #f8f3f3;
+    border-bottom: 1px solid #dadada;
+    padding: 2px;
+}

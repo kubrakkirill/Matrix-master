@@ -1,0 +1,32 @@
+*{
+    margin: auto;
+}
+table {
+    border-spacing: 0;
+}
+td {
+    border: 5px solid #8d8d8d;
+}
+.blue{
+    height: 100px;
+    background-color: blue;
+}
+.red{
+    width: 100px;
+    background-color: red;
+}
+.purple{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    border: 8px solid yellow;
+}
+.rose{
+    height: 50px;
+    background-color: mistyrose;
+    border: 8px solid yellow;
+}
+.grey{
+    height: 25px;
+    background-color: #8d8d8d;
+}

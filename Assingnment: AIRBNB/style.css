@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+.header-container{
+    margin: 0 auto;
+    padding: 0 30px;
+    max-width: 1200px;
+ }
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    border-bottom: 1px solid grey;
+}
+.header ul{
+    margin-left: 20px;
+}
+.section-container form{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    max-width: 150px;
+}
+.section-container{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.booking{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.main-info{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+.card-img,.extra-img {
+    width: 200px
+}
+.more-content{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.companies{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+.companies-img{
+    width: 70%;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 50px;
+}
+footer ul{
+    padding-left: 20px;
+}
+h4{
+    color: #fa7d76;
+}

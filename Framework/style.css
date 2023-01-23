@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto !important;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}

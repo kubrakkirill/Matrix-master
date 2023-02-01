@@ -1,36 +1,44 @@
 let btnMin = document.getElementById('btn-min');
-let field = document.getElementById('field');
 let btnAdd = document.getElementById('btn-add');
 let clock = document.getElementById('clock')
-let result = field.innerHTML = 0;
+let minute = 0;
+let  second = 0;
+let time;
 
-
-function addNumber(){
-    result += 1;
-    field.innerHTML = result;
+function addMinute(){
+    minute++
+    if (minute>60){
+        minute=0;
+    }
+    document.getElementById("minute").innerHTML = minute;
 }
-
-function minNumber(){
-    result -= 1;
-    result < 0 ? alert(`Cant be less then 0`) : field.innerHTML = result;
-}
-
-function checkTime(){
-    for (let i = result; i>0;i--){
-        if (result>0){
-            clockCount()
-        }
+function minMinute(){
+    minute--;
+    if (minute<0){minute=60;
+    }
+    document.getElementById("minute").innerHTML = minute;}
+function startTime(){
+    time = setInterval(timer, 1000);
+    if (time){
+        document.getElementById("start").disabled = true;
     }
 }
+function timer(){
+    second--;
+    if(second===-1){
+        minute--;
+        second=59;
+        if(minute===-1){
+            minute='00';
+            second='00';
+            clearInterval(timex);
+            alert('We made it');
+        }
 
-function clockCount(){
-    clock.innerHTML = result;
-    setTimeout(() => {
-        result -= 1;
-        clock.innerHTML = result;
-    }, 1000)
+    }
+    document.getElementById("minute").innerHTML = minute;
+    document.getElementById("second").innerHTML = second;
 }
-
-btnAdd.addEventListener("click", addNumber)
-btnMin.addEventListener("click", minNumber)
-clock.addEventListener("click", checkTime)
+btnMin.addEventListener("click", minMinute)
+btnAdd.addEventListener("click", addMinute)
+clock.addEventListener("click", startTime)

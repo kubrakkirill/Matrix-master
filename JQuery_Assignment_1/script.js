@@ -10,3 +10,4 @@ $('#btnColor').click(function (){
 $('#btnSlide').click(function (){
     $('#paraSlide').slideToggle()
 });
+

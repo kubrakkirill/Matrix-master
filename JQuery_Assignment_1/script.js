@@ -7,3 +7,6 @@ $('#btnAppend').click(function (){
 $('#btnColor').click(function (){
     $('#paraColor').css('color', 'red')
 });
+$('#btnSlide').click(function (){
+    $('#paraSlide').slideToggle()
+});

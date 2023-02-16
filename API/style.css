@@ -1,0 +1,35 @@
+body{
+    /*background-color: black;*/
+}
+.container{
+    height: 100vh;
+    /*background-color: white;*/
+    padding-top: 50px;
+    max-width: 900px;
+    margin: auto;
+}
+#item{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+label{
+    font-size: 40px;
+    font-weight: bold;
+}
+input{
+    width: 90%;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+}
+button{
+    padding: 5px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #4d90fe;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+}
